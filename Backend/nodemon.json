@@ -1,0 +1,9 @@
+{
+    "env":{
+        "DB_USER":"prasadzalake45",
+        "DB_PASSWORD":"nY55g0lzitPBtCMg",
+        "DB_NAME":"mern",
+        "LOCATION_API":"pk.bc6a05d815ece4b5ec4df52050399cc9",
+        "JWT_KEY":"supersecret_dont_share"
+    }
+}

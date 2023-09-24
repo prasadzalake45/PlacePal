@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #3498db, #9b59b6); /* A modern gradient background with blue and purple */
+  animation: backgroundAnimation 10s infinite alternate; /* Add a background animation */
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.slide-in-fade-enter {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.slide-in-fade-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 400ms ease-in-out; /* Smooth and modern transition */
+}
+
+.slide-in-fade-exit {
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.slide-in-fade-exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 400ms ease-in-out; /* Smooth and modern transition */
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
